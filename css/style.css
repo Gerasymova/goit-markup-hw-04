@@ -220,19 +220,25 @@ button:focus {
   justify-content: center;
 }
 .hero {
-  background-color: var(--footer-hero-color);
-  text-align: center;
-  padding-bottom: 200px;
+  max-width: 1600;
+  height: 600;
   padding-top: 200px;
-  background-image: linear-gradient(
-      to right,
+  padding-bottom: 200px;
+  background-color: var(--hero-bckgr);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: radial-gradient(
+      circle at center,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/header1.jpg");
+    url("../images/hero.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
+
 .hero-title {
   color: var(--primary-white-color);
 
